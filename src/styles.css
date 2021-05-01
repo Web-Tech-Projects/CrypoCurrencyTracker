@@ -3,10 +3,12 @@ html,
 body,
 header,
 
-.intro {
-    background: url('/assets/images/background.jpg') no-repeat center center fixed;
+.landing {
+  background: white;
+  background: url('/assets/images/background.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+    content:'';
 }
