@@ -1,0 +1,14 @@
+.card { 
+  background-color: rgba(252, 250, 250, 0.4); 
+  
+  border-style: none;
+}
+.card-header, .card-footer { opacity: 1}
+.card-container {
+    border-style: none;
+}
+.card-img-top {
+width: 100%;
+    
+    object-fit: cover;
+}
