@@ -38,6 +38,18 @@
         <input class="form-control mr-sm-2" type="text" placeholder="Search">
         <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
       </form>
+      <ul class="navbar-nav ml-lg-auto">
+        <li class="nav-item" *ngIf="!isAuthenticated">
+          <a class='nav-link no-caret' style="cursor:pointer" (click)="login()">
+            <span class="nav-link-inner--text">Login</span>
+          </a>
+        </li>
+        <li class="nav-item" *ngIf="isAuthenticated">
+          <a class='nav-link no-caret' style="cursor:pointer" (click)="logout()">
+            <span class="nav-link-inner--text">Logout</span>
+          </a>
+        </li>
+      </ul>
     </div>
   </div>
 </nav>
