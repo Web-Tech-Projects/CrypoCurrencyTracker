@@ -19,6 +19,4 @@
     height: auto;
     object-fit: cover;
 }
-.container {
-    min-height: 80vh; /* minus the height of the footer */
-}
+
